@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "9QSgPsGwbotkHF2lQ80obVs9bPwptC//v9f3kMubuFgrIbsKy6mVPsQNoH0WG6uhWE2SIJK53YHUNOceovQWNg==",
+  "success": true,
+  "projectFilePath": "C:\\Repos\\Lazy-Susan-Mobile-App\\LazySusanApp\\LazySusanApp\\LazySusanApp.iOS\\LazySusanApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brode\\.nuget\\packages\\skiasharp\\1.68.1.1\\skiasharp.1.68.1.1.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\skiasharp.views\\1.68.1.1\\skiasharp.views.1.68.1.1.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\skiasharp.views.forms\\1.68.1.1\\skiasharp.views.forms.1.68.1.1.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\xamarin.forms\\4.5.0.530\\xamarin.forms.4.5.0.530.nupkg.sha512"
+  ],
+  "logs": []
+}
