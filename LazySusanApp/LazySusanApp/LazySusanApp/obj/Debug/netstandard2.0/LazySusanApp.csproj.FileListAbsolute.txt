@@ -1,6 +1,5 @@
 C:\Repos\Lazy-Susan-Mobile-App\LazySusanApp\LazySusanApp\LazySusanApp\bin\Debug\netstandard2.0\LazySusanApp.deps.json
 C:\Repos\Lazy-Susan-Mobile-App\LazySusanApp\LazySusanApp\LazySusanApp\bin\Debug\netstandard2.0\LazySusanApp.dll
-C:\Repos\Lazy-Susan-Mobile-App\LazySusanApp\LazySusanApp\LazySusanApp\obj\Debug\netstandard2.0\LazySusanApp.csprojAssemblyReference.cache
 C:\Repos\Lazy-Susan-Mobile-App\LazySusanApp\LazySusanApp\LazySusanApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Repos\Lazy-Susan-Mobile-App\LazySusanApp\LazySusanApp\LazySusanApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Repos\Lazy-Susan-Mobile-App\LazySusanApp\LazySusanApp\LazySusanApp\obj\Debug\netstandard2.0\LazySusanApp.AssemblyInfoInputs.cache
@@ -12,3 +11,4 @@ C:\Repos\Lazy-Susan-Mobile-App\LazySusanApp\LazySusanApp\LazySusanApp\obj\Debug\
 C:\Repos\Lazy-Susan-Mobile-App\LazySusanApp\LazySusanApp\LazySusanApp\obj\Debug\netstandard2.0\LazySusanApp.dll
 C:\Repos\Lazy-Susan-Mobile-App\LazySusanApp\LazySusanApp\LazySusanApp\obj\Debug\netstandard2.0\ref\LazySusanApp.dll
 C:\Repos\Lazy-Susan-Mobile-App\LazySusanApp\LazySusanApp\LazySusanApp\obj\Debug\netstandard2.0\LazySusanApp.pdb
+C:\Repos\Lazy-Susan-Mobile-App\LazySusanApp\LazySusanApp\LazySusanApp\obj\Debug\netstandard2.0\LazySusanApp.csprojAssemblyReference.cache
