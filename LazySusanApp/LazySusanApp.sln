@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazySusanApp.Android", "Laz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazySusanApp.iOS", "LazySusanApp\LazySusanApp.iOS\LazySusanApp.iOS.csproj", "{FAC6CBC0-399E-4A41-AE6C-1F368F440797}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazySusanApp", "LazySusanApp\LazySusanApp\LazySusanApp.csproj", "{23E3DF2D-0931-43ED-BDD7-D78B19D91C87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LazySusanApp", "LazySusanApp\LazySusanApp\LazySusanApp.csproj", "{23E3DF2D-0931-43ED-BDD7-D78B19D91C87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

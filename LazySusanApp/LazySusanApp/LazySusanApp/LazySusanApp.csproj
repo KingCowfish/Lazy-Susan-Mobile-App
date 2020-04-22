@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -11,8 +11,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\Cherry_WG.jpg" />
+    <None Remove="Images\Oak_WG.png" />
+    <None Remove="Images\Table_Cloth_Red.jpg" />
+    <None Remove="Oak_WG.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Cherry_WG.jpg" />
+    <EmbeddedResource Include="Images\Oak_WG.png" />
+    <EmbeddedResource Include="Images\Table_Cloth_Red.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.1.1" />
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.530" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.6.292" />
+    <PackageReference Include="TouchTracking.Forms" Version="1.1.0" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Extra\CatClock.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
