@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LazySusanApp.Models
 {
-    class Spice
+    public class Spice
     {
         public string Name;
         public int Amount;

@@ -59,7 +59,81 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.2": {
+      "sqlite-net-pcl/1.6.292": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.13"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.13": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "TouchTracking/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS/TouchTracking.dll": {},
+          "lib/XamariniOS/TouchTracking.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/TouchTracking.dll": {},
+          "lib/XamariniOS/TouchTracking.iOS.dll": {}
+        }
+      },
+      "TouchTracking.Forms/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "TouchTracking": "1.1.0",
+          "Xamarin.Forms": "3.0.0"
+        },
+        "compile": {
+          "lib/XamariniOS/TouchTracking.Forms.dll": {},
+          "lib/XamariniOS/TouchTracking.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/TouchTracking.Forms.dll": {},
+          "lib/XamariniOS/TouchTracking.Forms.iOS.dll": {}
+        }
+      },
+      "Xamarin.Essentials/1.5.3": {
         "type": "package",
         "frameworkAssemblies": [
           "OpenTK-1.0",
@@ -72,7 +146,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.5.0.530": {
+      "Xamarin.Forms/4.5.0.617": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -198,8 +272,10 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SkiaSharp.Views.Forms": "1.68.1.1",
-          "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.530"
+          "TouchTracking.Forms": "1.1.0",
+          "Xamarin.Essentials": "1.5.3",
+          "Xamarin.Forms": "4.5.0.617",
+          "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
           "bin/placeholder/LazySusanApp.dll": {}
@@ -245,7 +321,81 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.2": {
+      "sqlite-net-pcl/1.6.292": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.13"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.13": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "TouchTracking/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS/TouchTracking.dll": {},
+          "lib/XamariniOS/TouchTracking.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/TouchTracking.dll": {},
+          "lib/XamariniOS/TouchTracking.iOS.dll": {}
+        }
+      },
+      "TouchTracking.Forms/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "TouchTracking": "1.1.0",
+          "Xamarin.Forms": "3.0.0"
+        },
+        "compile": {
+          "lib/XamariniOS/TouchTracking.Forms.dll": {},
+          "lib/XamariniOS/TouchTracking.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/TouchTracking.Forms.dll": {},
+          "lib/XamariniOS/TouchTracking.Forms.iOS.dll": {}
+        }
+      },
+      "Xamarin.Essentials/1.5.3": {
         "type": "package",
         "frameworkAssemblies": [
           "OpenTK-1.0",
@@ -258,7 +408,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.5.0.530": {
+      "Xamarin.Forms/4.5.0.617": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -384,8 +534,10 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SkiaSharp.Views.Forms": "1.68.1.1",
-          "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.530"
+          "TouchTracking.Forms": "1.1.0",
+          "Xamarin.Essentials": "1.5.3",
+          "Xamarin.Forms": "4.5.0.617",
+          "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
           "bin/placeholder/LazySusanApp.dll": {}
@@ -434,7 +586,81 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.2": {
+      "sqlite-net-pcl/1.6.292": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.13"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.13": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "TouchTracking/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS/TouchTracking.dll": {},
+          "lib/XamariniOS/TouchTracking.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/TouchTracking.dll": {},
+          "lib/XamariniOS/TouchTracking.iOS.dll": {}
+        }
+      },
+      "TouchTracking.Forms/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "TouchTracking": "1.1.0",
+          "Xamarin.Forms": "3.0.0"
+        },
+        "compile": {
+          "lib/XamariniOS/TouchTracking.Forms.dll": {},
+          "lib/XamariniOS/TouchTracking.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/TouchTracking.Forms.dll": {},
+          "lib/XamariniOS/TouchTracking.Forms.iOS.dll": {}
+        }
+      },
+      "Xamarin.Essentials/1.5.3": {
         "type": "package",
         "frameworkAssemblies": [
           "OpenTK-1.0",
@@ -447,7 +673,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.5.0.530": {
+      "Xamarin.Forms/4.5.0.617": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -573,8 +799,10 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SkiaSharp.Views.Forms": "1.68.1.1",
-          "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.530"
+          "TouchTracking.Forms": "1.1.0",
+          "Xamarin.Essentials": "1.5.3",
+          "Xamarin.Forms": "4.5.0.617",
+          "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
           "bin/placeholder/LazySusanApp.dll": {}
@@ -623,7 +851,81 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.2": {
+      "sqlite-net-pcl/1.6.292": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.13"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.13": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "TouchTracking/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS/TouchTracking.dll": {},
+          "lib/XamariniOS/TouchTracking.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/TouchTracking.dll": {},
+          "lib/XamariniOS/TouchTracking.iOS.dll": {}
+        }
+      },
+      "TouchTracking.Forms/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "TouchTracking": "1.1.0",
+          "Xamarin.Forms": "3.0.0"
+        },
+        "compile": {
+          "lib/XamariniOS/TouchTracking.Forms.dll": {},
+          "lib/XamariniOS/TouchTracking.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/TouchTracking.Forms.dll": {},
+          "lib/XamariniOS/TouchTracking.Forms.iOS.dll": {}
+        }
+      },
+      "Xamarin.Essentials/1.5.3": {
         "type": "package",
         "frameworkAssemblies": [
           "OpenTK-1.0",
@@ -636,7 +938,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.5.0.530": {
+      "Xamarin.Forms/4.5.0.617": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -762,8 +1064,10 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SkiaSharp.Views.Forms": "1.68.1.1",
-          "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.530"
+          "TouchTracking.Forms": "1.1.0",
+          "Xamarin.Essentials": "1.5.3",
+          "Xamarin.Forms": "4.5.0.617",
+          "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
           "bin/placeholder/LazySusanApp.dll": {}
@@ -885,10 +1189,147 @@
         "skiasharp.views.forms.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.5.2": {
-      "sha512": "qHxkrkx5jIC0X/qWhxCPZ3MuuOJm8bfCzAoUtlpOBSE4oV0JhrkTezK0A+IV+k/MeJ3zKc8FexaIXah9rlCTIw==",
+    "sqlite-net-pcl/1.6.292": {
+      "sha512": "TZPs206/ZZXhDAgCzxE5Dmw1enkRmtpd1RKt+dLJA6Kvml4RxwkasRs4js2kijtGxik1SLCs39rh9nl9YFwrYg==",
       "type": "package",
-      "path": "xamarin.essentials/1.5.2",
+      "path": "sqlite-net-pcl/1.6.292",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/SQLite-net.deps.json",
+        "lib/netstandard1.1/SQLite-net.dll",
+        "lib/netstandard1.1/SQLite-net.xml",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.xml",
+        "sqlite-net-pcl.1.6.292.nupkg.sha512",
+        "sqlite-net-pcl.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.bundle_green/1.1.13": {
+      "sha512": "E0Hm/XTfleE/LlrRZVucB1dQqDlIDPgqvkFymbGqMO7bSaoB6R2X5Cgzq/RDxBFSzHjpzet2Tp5Kar8faLSZ+Q==",
+      "type": "package",
+      "path": "sqlitepclraw.bundle_green/1.1.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/wp8/SQLitePCLRaw.bundle_green.targets",
+        "build/wp80/arm/SQLitePCLRaw.batteries_green.dll",
+        "build/wp80/arm/SQLitePCLRaw.batteries_v2.dll",
+        "build/wp80/x86/SQLitePCLRaw.batteries_green.dll",
+        "build/wp80/x86/SQLitePCLRaw.batteries_v2.dll",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_green.dll",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_green.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net35/SQLitePCLRaw.batteries_green.dll",
+        "lib/net35/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net40/SQLitePCLRaw.batteries_green.dll",
+        "lib/net40/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net45/SQLitePCLRaw.batteries_green.dll",
+        "lib/net45/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_green.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/win8/SQLitePCLRaw.batteries_green.dll",
+        "lib/win8/SQLitePCLRaw.batteries_v2.dll",
+        "lib/win81/SQLitePCLRaw.batteries_green.dll",
+        "lib/win81/SQLitePCLRaw.batteries_v2.dll",
+        "lib/wp8/_._",
+        "lib/wpa81/SQLitePCLRaw.batteries_green.dll",
+        "lib/wpa81/SQLitePCLRaw.batteries_v2.dll",
+        "sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
+        "sqlitepclraw.bundle_green.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.core/1.1.13": {
+      "sha512": "I8Q9qL1urPegoyZ5uI32lgqsxl8aPRZAyVBJbO+0T/zlGz/LBc8vhRVyDyCOU9LWWpV8dYpT0nCpuLv1ua6zkA==",
+      "type": "package",
+      "path": "sqlitepclraw.core/1.1.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/SQLitePCLRaw.core.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.core.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/net35/SQLitePCLRaw.core.dll",
+        "lib/net40/SQLitePCLRaw.core.dll",
+        "lib/net45/SQLitePCLRaw.core.dll",
+        "lib/netstandard1.0/SQLitePCLRaw.core.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.core.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/uap10.0/SQLitePCLRaw.core.dll",
+        "lib/win8/SQLitePCLRaw.core.dll",
+        "lib/win81/SQLitePCLRaw.core.dll",
+        "lib/wpa81/SQLitePCLRaw.core.dll",
+        "sqlitepclraw.core.1.1.13.nupkg.sha512",
+        "sqlitepclraw.core.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.13": {
+      "sha512": "8+kMnKUM+BVuRyg1LhVYYQCRR8LAQb9UCvXO+JcS4WMTKPeX+JCWlNPuej9lPw67T8OZqQ3AAlLr1hc4dsyykQ==",
+      "type": "package",
+      "path": "sqlitepclraw.provider.sqlite3.ios_unified/1.1.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll",
+        "sqlitepclraw.provider.sqlite3.ios_unified.1.1.13.nupkg.sha512",
+        "sqlitepclraw.provider.sqlite3.ios_unified.nuspec"
+      ]
+    },
+    "TouchTracking/1.1.0": {
+      "sha512": "ZuhJdQBAOXlDGfxmFBWUlaL3GpUBtUd5c6KDMaW10fhIqDtWse9mvBZ/5uJ1oElm15QRunpTihj6GjdtN5+Y/g==",
+      "type": "package",
+      "path": "touchtracking/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/TouchTracking.Droid.dll",
+        "lib/MonoAndroid/TouchTracking.dll",
+        "lib/XamariniOS/TouchTracking.dll",
+        "lib/XamariniOS/TouchTracking.iOS.dll",
+        "lib/netstandard1.3/TouchTracking.dll",
+        "lib/uap10.0/TouchTracking.UWP.dll",
+        "lib/uap10.0/TouchTracking.dll",
+        "touchtracking.1.1.0.nupkg.sha512",
+        "touchtracking.nuspec"
+      ]
+    },
+    "TouchTracking.Forms/1.1.0": {
+      "sha512": "rEIFSJM0kl9T6Vn1LvY6jaZ4ulbk3MSbWVtH66/A9YSqf5aAfEEct3uWu+Ivt0zuKQrI/9Ryedcve1TqgDMqlQ==",
+      "type": "package",
+      "path": "touchtracking.forms/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/TouchTracking.Forms.Droid.dll",
+        "lib/MonoAndroid/TouchTracking.Forms.dll",
+        "lib/XamariniOS/TouchTracking.Forms.dll",
+        "lib/XamariniOS/TouchTracking.Forms.iOS.dll",
+        "lib/netstandard1.3/TouchTracking.Forms.dll",
+        "lib/uap10.0/TouchTracking.Forms.UWP.dll",
+        "lib/uap10.0/TouchTracking.Forms.dll",
+        "touchtracking.forms.1.1.0.nupkg.sha512",
+        "touchtracking.forms.nuspec"
+      ]
+    },
+    "Xamarin.Essentials/1.5.3": {
+      "sha512": "nJg5P4vpRfPHiLAWOwb18pSKJcfcUzqietWWYOR9tza10cxbxC5J8oK5wfiggi6I6xDpHf5q09eRf0N0at2MRw==",
+      "type": "package",
+      "path": "xamarin.essentials/1.5.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -929,14 +1370,14 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.5.2.nupkg.sha512",
+        "xamarin.essentials.1.5.3.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.5.0.530": {
-      "sha512": "ViHc4HlMUQEt3bR+PpDebHRXAuRCg67XC8UJ/JgQ0CJ11CiB35WT+NBJHipr0cGyHxGwoBhTwA/rKbQtIAy7eg==",
+    "Xamarin.Forms/4.5.0.617": {
+      "sha512": "tB/h7bHEylOgNT+521SRnbmO+LCe5R3lPboD/icCMpa+FdjmxhZQ7+fIIPFDbhY2dqYetGRnAeJWXVx4NLbmAw==",
       "type": "package",
-      "path": "xamarin.forms/4.5.0.530",
+      "path": "xamarin.forms/4.5.0.617",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1241,7 +1682,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.5.0.530.nupkg.sha512",
+        "xamarin.forms.4.5.0.617.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -1255,8 +1696,10 @@
     "Xamarin.iOS,Version=v1.0": [
       "LazySusanApp >= 1.0.0",
       "SkiaSharp.Views.Forms >= 1.68.1.1",
-      "Xamarin.Essentials >= 1.5.2",
-      "Xamarin.Forms >= 4.5.0.530"
+      "TouchTracking.Forms >= 1.1.0",
+      "Xamarin.Essentials >= 1.5.3",
+      "Xamarin.Forms >= 4.5.0.617",
+      "sqlite-net-pcl >= 1.6.292"
     ]
   },
   "packageFolders": {
@@ -1305,13 +1748,21 @@
             "target": "Package",
             "version": "[1.68.1.1, )"
           },
+          "TouchTracking.Forms": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.5.2, )"
+            "version": "[1.5.3, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.5.0.530, )"
+            "version": "[4.5.0.617, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.6.292, )"
           }
         }
       }

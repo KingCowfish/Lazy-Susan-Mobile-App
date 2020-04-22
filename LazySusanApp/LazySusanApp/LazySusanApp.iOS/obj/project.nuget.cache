@@ -1,14 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "9QSgPsGwbotkHF2lQ80obVs9bPwptC//v9f3kMubuFgrIbsKy6mVPsQNoH0WG6uhWE2SIJK53YHUNOceovQWNg==",
+  "dgSpecHash": "eAYZM4glqtZaoE5ErPW2g2GdD2k5zW/cJwpUy5H6fA4V3mzUFDhi+QCSmr4UG/fn2pw5CK9SSXJui0pXWzo5FQ==",
   "success": true,
   "projectFilePath": "C:\\Repos\\Lazy-Susan-Mobile-App\\LazySusanApp\\LazySusanApp\\LazySusanApp.iOS\\LazySusanApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brode\\.nuget\\packages\\skiasharp\\1.68.1.1\\skiasharp.1.68.1.1.nupkg.sha512",
     "C:\\Users\\brode\\.nuget\\packages\\skiasharp.views\\1.68.1.1\\skiasharp.views.1.68.1.1.nupkg.sha512",
     "C:\\Users\\brode\\.nuget\\packages\\skiasharp.views.forms\\1.68.1.1\\skiasharp.views.forms.1.68.1.1.nupkg.sha512",
-    "C:\\Users\\brode\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
-    "C:\\Users\\brode\\.nuget\\packages\\xamarin.forms\\4.5.0.530\\xamarin.forms.4.5.0.530.nupkg.sha512"
+    "C:\\Users\\brode\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\sqlitepclraw.provider.sqlite3.ios_unified\\1.1.13\\sqlitepclraw.provider.sqlite3.ios_unified.1.1.13.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\touchtracking\\1.1.0\\touchtracking.1.1.0.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\touchtracking.forms\\1.1.0\\touchtracking.forms.1.1.0.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\xamarin.essentials\\1.5.3\\xamarin.essentials.1.5.3.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\xamarin.forms\\4.5.0.617\\xamarin.forms.4.5.0.617.nupkg.sha512"
   ],
   "logs": []
 }

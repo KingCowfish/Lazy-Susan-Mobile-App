@@ -4,10 +4,38 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+             xmlns:tt="clr-namespace:TouchTracking.Forms;assembly=TouchTracking.Forms"
              mc:Ignorable="d"
              x:Class="LazySusanApp.MainPage">
 
-    <skia:SKCanvasView x:Name="canvasView"
-                       PaintSurface="canvasView_PaintSurface" />
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
 
+        <Slider x:Name="rotateSlider"
+                Grid.Row="0"
+                Margin="20, 0"
+                Minimum="-360"
+                Maximum="360"
+                ValueChanged="sliderValueChanged" />
+
+        <!--<Label Text="{Binding Source={x:Reference rotateSlider},
+                              Path=Value,
+                              StringFormat='Rotation = {0:F0}'}"
+               Grid.Row="1"
+               HorizontalTextAlignment="Center" />-->
+
+        <skia:SKCanvasView x:Name="canvasView"
+                           Grid.Row="2"
+                           PaintSurface="canvasView_PaintSurface"/>
+
+        <Grid.Effects>
+            <tt:TouchEffect Capture="True"
+                            TouchAction="TouchEffect_TouchAction" />
+        </Grid.Effects>
+
+    </Grid>
 </ContentPage>
